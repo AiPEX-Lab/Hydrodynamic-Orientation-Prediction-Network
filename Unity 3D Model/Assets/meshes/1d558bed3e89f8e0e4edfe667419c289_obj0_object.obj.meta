@@ -1,0 +1,195 @@
+fileFormatVersion: 2
+guid: a102d56890d6dc945a2fafc3e17be14a
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Mesh10_Group_4_Chair_IKEA_Poang_Ottoman1_Model
+    100004: Mesh11_Group_4_Chair_IKEA_Poang_Ottoman1_Model
+    100006: Mesh12_Group_4_Chair_IKEA_Poang_Ottoman1_Model
+    100008: Mesh13_Group_4_Chair_IKEA_Poang_Ottoman1_Model
+    100010: Mesh14_Group_4_Chair_IKEA_Poang_Ottoman1_Model
+    100012: Mesh15_Group_3_Chair_IKEA_Poang_Ottoman1_Model
+    100014: Mesh16_Group_2_Chair_IKEA_Poang_Ottoman1_Model
+    100016: Mesh17_Group_1_Chair_IKEA_Poang_Ottoman1_Model
+    100018: Mesh1_Group_11_Chair_IKEA_Poang_Ottoman1_Model
+    100020: Mesh2_Group_10_Chair_IKEA_Poang_Ottoman1_Model
+    100022: Mesh3_Group_9_Chair_IKEA_Poang_Ottoman1_Model
+    100024: Mesh4_Group_8_Chair_IKEA_Poang_Ottoman1_Model
+    100026: Mesh5_Group_7_Chair_IKEA_Poang_Ottoman1_Model
+    100028: Mesh6_Group_6_Chair_IKEA_Poang_Ottoman1_Model
+    100030: Mesh7_Group_5_Chair_IKEA_Poang_Ottoman1_Model
+    100032: Mesh8_Group_4_Chair_IKEA_Poang_Ottoman1_Model
+    100034: Mesh9_Group_4_Chair_IKEA_Poang_Ottoman1_Model
+    400000: //RootNode
+    400002: Mesh10_Group_4_Chair_IKEA_Poang_Ottoman1_Model
+    400004: Mesh11_Group_4_Chair_IKEA_Poang_Ottoman1_Model
+    400006: Mesh12_Group_4_Chair_IKEA_Poang_Ottoman1_Model
+    400008: Mesh13_Group_4_Chair_IKEA_Poang_Ottoman1_Model
+    400010: Mesh14_Group_4_Chair_IKEA_Poang_Ottoman1_Model
+    400012: Mesh15_Group_3_Chair_IKEA_Poang_Ottoman1_Model
+    400014: Mesh16_Group_2_Chair_IKEA_Poang_Ottoman1_Model
+    400016: Mesh17_Group_1_Chair_IKEA_Poang_Ottoman1_Model
+    400018: Mesh1_Group_11_Chair_IKEA_Poang_Ottoman1_Model
+    400020: Mesh2_Group_10_Chair_IKEA_Poang_Ottoman1_Model
+    400022: Mesh3_Group_9_Chair_IKEA_Poang_Ottoman1_Model
+    400024: Mesh4_Group_8_Chair_IKEA_Poang_Ottoman1_Model
+    400026: Mesh5_Group_7_Chair_IKEA_Poang_Ottoman1_Model
+    400028: Mesh6_Group_6_Chair_IKEA_Poang_Ottoman1_Model
+    400030: Mesh7_Group_5_Chair_IKEA_Poang_Ottoman1_Model
+    400032: Mesh8_Group_4_Chair_IKEA_Poang_Ottoman1_Model
+    400034: Mesh9_Group_4_Chair_IKEA_Poang_Ottoman1_Model
+    2100000: Mesh10_Group_4_Chair_IKEA_Poang_Ottoman1_ModelMat
+    2100002: Mesh11_Group_4_Chair_IKEA_Poang_Ottoman1_ModelMat
+    2100004: Mesh12_Group_4_Chair_IKEA_Poang_Ottoman1_ModelMat
+    2100006: Mesh13_Group_4_Chair_IKEA_Poang_Ottoman1_ModelMat
+    2100008: Mesh14_Group_4_Chair_IKEA_Poang_Ottoman1_ModelMat
+    2100010: Mesh15_Group_3_Chair_IKEA_Poang_Ottoman1_ModelMat
+    2100012: Mesh16_Group_2_Chair_IKEA_Poang_Ottoman1_ModelMat
+    2100014: Mesh17_Group_1_Chair_IKEA_Poang_Ottoman1_ModelMat
+    2100016: Mesh1_Group_11_Chair_IKEA_Poang_Ottoman1_ModelMat
+    2100018: Mesh2_Group_10_Chair_IKEA_Poang_Ottoman1_ModelMat
+    2100020: Mesh3_Group_9_Chair_IKEA_Poang_Ottoman1_ModelMat
+    2100022: Mesh4_Group_8_Chair_IKEA_Poang_Ottoman1_ModelMat
+    2100024: Mesh5_Group_7_Chair_IKEA_Poang_Ottoman1_ModelMat
+    2100026: Mesh6_Group_6_Chair_IKEA_Poang_Ottoman1_ModelMat
+    2100028: Mesh7_Group_5_Chair_IKEA_Poang_Ottoman1_ModelMat
+    2100030: Mesh8_Group_4_Chair_IKEA_Poang_Ottoman1_ModelMat
+    2100032: Mesh9_Group_4_Chair_IKEA_Poang_Ottoman1_ModelMat
+    2300000: Mesh10_Group_4_Chair_IKEA_Poang_Ottoman1_Model
+    2300002: Mesh11_Group_4_Chair_IKEA_Poang_Ottoman1_Model
+    2300004: Mesh12_Group_4_Chair_IKEA_Poang_Ottoman1_Model
+    2300006: Mesh13_Group_4_Chair_IKEA_Poang_Ottoman1_Model
+    2300008: Mesh14_Group_4_Chair_IKEA_Poang_Ottoman1_Model
+    2300010: Mesh15_Group_3_Chair_IKEA_Poang_Ottoman1_Model
+    2300012: Mesh16_Group_2_Chair_IKEA_Poang_Ottoman1_Model
+    2300014: Mesh17_Group_1_Chair_IKEA_Poang_Ottoman1_Model
+    2300016: Mesh1_Group_11_Chair_IKEA_Poang_Ottoman1_Model
+    2300018: Mesh2_Group_10_Chair_IKEA_Poang_Ottoman1_Model
+    2300020: Mesh3_Group_9_Chair_IKEA_Poang_Ottoman1_Model
+    2300022: Mesh4_Group_8_Chair_IKEA_Poang_Ottoman1_Model
+    2300024: Mesh5_Group_7_Chair_IKEA_Poang_Ottoman1_Model
+    2300026: Mesh6_Group_6_Chair_IKEA_Poang_Ottoman1_Model
+    2300028: Mesh7_Group_5_Chair_IKEA_Poang_Ottoman1_Model
+    2300030: Mesh8_Group_4_Chair_IKEA_Poang_Ottoman1_Model
+    2300032: Mesh9_Group_4_Chair_IKEA_Poang_Ottoman1_Model
+    3300000: Mesh10_Group_4_Chair_IKEA_Poang_Ottoman1_Model
+    3300002: Mesh11_Group_4_Chair_IKEA_Poang_Ottoman1_Model
+    3300004: Mesh12_Group_4_Chair_IKEA_Poang_Ottoman1_Model
+    3300006: Mesh13_Group_4_Chair_IKEA_Poang_Ottoman1_Model
+    3300008: Mesh14_Group_4_Chair_IKEA_Poang_Ottoman1_Model
+    3300010: Mesh15_Group_3_Chair_IKEA_Poang_Ottoman1_Model
+    3300012: Mesh16_Group_2_Chair_IKEA_Poang_Ottoman1_Model
+    3300014: Mesh17_Group_1_Chair_IKEA_Poang_Ottoman1_Model
+    3300016: Mesh1_Group_11_Chair_IKEA_Poang_Ottoman1_Model
+    3300018: Mesh2_Group_10_Chair_IKEA_Poang_Ottoman1_Model
+    3300020: Mesh3_Group_9_Chair_IKEA_Poang_Ottoman1_Model
+    3300022: Mesh4_Group_8_Chair_IKEA_Poang_Ottoman1_Model
+    3300024: Mesh5_Group_7_Chair_IKEA_Poang_Ottoman1_Model
+    3300026: Mesh6_Group_6_Chair_IKEA_Poang_Ottoman1_Model
+    3300028: Mesh7_Group_5_Chair_IKEA_Poang_Ottoman1_Model
+    3300030: Mesh8_Group_4_Chair_IKEA_Poang_Ottoman1_Model
+    3300032: Mesh9_Group_4_Chair_IKEA_Poang_Ottoman1_Model
+    4300000: Mesh10_Group_4_Chair_IKEA_Poang_Ottoman1_Model
+    4300002: Mesh11_Group_4_Chair_IKEA_Poang_Ottoman1_Model
+    4300004: Mesh12_Group_4_Chair_IKEA_Poang_Ottoman1_Model
+    4300006: Mesh13_Group_4_Chair_IKEA_Poang_Ottoman1_Model
+    4300008: Mesh14_Group_4_Chair_IKEA_Poang_Ottoman1_Model
+    4300010: Mesh15_Group_3_Chair_IKEA_Poang_Ottoman1_Model
+    4300012: Mesh16_Group_2_Chair_IKEA_Poang_Ottoman1_Model
+    4300014: Mesh17_Group_1_Chair_IKEA_Poang_Ottoman1_Model
+    4300016: Mesh1_Group_11_Chair_IKEA_Poang_Ottoman1_Model
+    4300018: Mesh2_Group_10_Chair_IKEA_Poang_Ottoman1_Model
+    4300020: Mesh3_Group_9_Chair_IKEA_Poang_Ottoman1_Model
+    4300022: Mesh4_Group_8_Chair_IKEA_Poang_Ottoman1_Model
+    4300024: Mesh5_Group_7_Chair_IKEA_Poang_Ottoman1_Model
+    4300026: Mesh6_Group_6_Chair_IKEA_Poang_Ottoman1_Model
+    4300028: Mesh7_Group_5_Chair_IKEA_Poang_Ottoman1_Model
+    4300030: Mesh8_Group_4_Chair_IKEA_Poang_Ottoman1_Model
+    4300032: Mesh9_Group_4_Chair_IKEA_Poang_Ottoman1_Model
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
