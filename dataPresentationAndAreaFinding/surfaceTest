@@ -1,0 +1,53 @@
+from mpl_toolkits.mplot3d import Axes3D
+import matplotlib.pyplot as plt
+import numpy as np
+from itertools import product, combinations
+import math
+from pdb import set_trace as t
+import random
+
+def fibonacci_sphere(samples=1,randomize=False):
+    rnd = 1.
+    if randomize:
+        rnd = random.random() * samples
+    points = []
+    offset = 2./samples
+    increment = math.pi * (3. - math.sqrt(5.));
+    for i in range(samples):
+        y = ((i * offset) - 1) + (offset / 2);
+        r = math.sqrt(1 - pow(y,2))
+        phi = ((i + rnd) % samples) * increment
+        x = math.cos(phi) * r
+        z = math.sin(phi) * r
+        points.append([x,y,z])
+    return points
+
+def cart2sph(x, y, z):
+    hxy = np.hypot(x, y)
+    r = np.hypot(hxy, z)
+    el = np.arctan2(z, hxy)
+    az = np.arctan2(y, x)
+    return az, el, r
+    
+def sph2cart(az, el, r):
+    rcos_theta = r * np.cos(el)
+    x = rcos_theta * np.cos(az)
+    y = rcos_theta * np.sin(az)
+    z = r * np.sin(el)
+    return x, y, z
+
+
+fib = fibonacci_sphere(100)
+
+x,y,z = zip(*fib)
+
+fig = plt.figure()
+ax = fig.gca(projection='3d')
+
+u, v = np.mgrid[0:2*np.pi:20j, 0:np.pi:10j]
+x = np.cos(u)*np.sin(v)
+y = np.sin(u)*np.sin(v)
+z = np.cos(v)
+ax.plot_surface(x, y, z, color='#79a3e8')
+    
+plt.show()
