@@ -152,6 +152,15 @@ namespace NVIDIA.Flex
             m_impulses.Add(info);
         }
 
+        //Wrapper of the ApplyForces function
+        public void ApplyForce(Vector3 _force, int _particle = -1)
+        {
+            ForceInfo info;
+            info.force = _force;
+            info.particle = _particle;
+            m_forces.Add(info);
+        }
+
 
         //Wrapper of the PresetVelocities function
         public bool PresetVelocity(FlexContainer.ParticleData _particleData)
@@ -326,6 +335,12 @@ namespace NVIDIA.Flex
                 m_impulses.Clear();
             }
 
+            //Trigger of the ApplyForces function
+            if (m_forces.Count > 0)
+            {
+                ApplyForces(_particleData);
+            }
+
             UpdateBounds(_particleData);
 
             if (onFlexUpdate != null) onFlexUpdate(_particleData);
@@ -485,6 +500,36 @@ namespace NVIDIA.Flex
                     }
                     if (mass < float.Epsilon) continue;
                     Vector3 velocityChange = info.impulse / mass;
+                    foreach (var index in indices)
+                    {
+                        _particleData.SetVelocity(index, _particleData.GetVelocity(index) + velocityChange);
+                    }
+                }
+            }
+        }
+
+        //This function is to provide a constant force on objects.
+        void ApplyForces(FlexContainer.ParticleData _particleData)
+        {
+            if (m_currentAsset && m_instanceHandle)
+            {
+                FlexExt.Instance instance = m_instanceHandle.instance;
+                int[] indices = new int[instance.numParticles];
+                FlexUtils.FastCopy(instance.particleIndices, indices);
+                foreach (var info in m_forces)
+                {
+                    if (info.force.sqrMagnitude < float.Epsilon) continue;
+                    float mass = 0;
+                    foreach (var index in indices)
+                    {
+                        if (info.particle == -1 || info.particle == index)
+                        {
+                            Vector4 particle = _particleData.GetParticle(index);
+                            mass += 1.0f / particle.w;
+                        }
+                    }
+                    if (mass < float.Epsilon) continue;
+                    Vector3 velocityChange = info.force / mass;
                     foreach (var index in indices)
                     {
                         _particleData.SetVelocity(index, _particleData.GetVelocity(index) + velocityChange);
@@ -683,6 +728,9 @@ namespace NVIDIA.Flex
         int m_teleport = 0;
         struct ImpulseInfo { public Vector3 impulse; public int particle; }
         List<ImpulseInfo> m_impulses = new List<ImpulseInfo>();
+
+        struct ForceInfo { public Vector3 force; public int particle; }
+        List<ForceInfo> m_forces = new List<ForceInfo>();
 
         List<Vector3> OutputList = new List<Vector3>();
 
